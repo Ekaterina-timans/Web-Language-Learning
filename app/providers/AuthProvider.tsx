@@ -8,7 +8,7 @@ export function AuthProvider({ children }: PropsWithChildren) {
 		new QueryClient({
 			defaultOptions: {
 				queries: {
-					refetchOnWindowFocus: false // при изменении внешнего фокуса на окне не производился лишний запрос
+					refetchOnWindowFocus: false
 				}
 			}
 		})
